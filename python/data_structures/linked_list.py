@@ -2,18 +2,23 @@ class LinkedList:
     """
     Put docstring here
     """
-    #
-    def __init__(self):
+    
+     def __init__(self):
         # initialization here
         self.head = None
+        
+    def __str__(self):
+        current = self.head
+        result = ""
+        while current:
+            result += f"{{ {str(current.value)} }} -> "
+            current = current.next
+        return result + "NULL"
+
 
     def insert(self, value):
-        self.head = Node(value)
+        self.head = Node(value, self.head)
 
-
-
-    def to_string(self):
-        pass
 
     def includes(self, target_value):
         current = self.head
@@ -26,7 +31,7 @@ class LinkedList:
 class Node:
     def __init__(self, value, next=None):
         self.value = value
-        self.next_node = None
+        self.next = next
 
 class TargetError:
     pass

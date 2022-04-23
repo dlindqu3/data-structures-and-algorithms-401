@@ -6,8 +6,8 @@
 
 ## Approach and Efficiency
   - I created  linked list that used the built-in str method and while loops
-  - Big O space:
-  - Big O time:
+  - Big O space: O(N)
+  - Big O time: typically between O(1) and O(N)
 
 ## API
   - this has 3 methods: insert, includes, and render as string

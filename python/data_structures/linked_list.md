@@ -10,4 +10,4 @@
   - Big O time: typically between O(1) and O(N)
 
 ## API
-  - this has 3 methods: insert, includes, and render as string
+  - this has 3 methods: insert, includes, and render as a string

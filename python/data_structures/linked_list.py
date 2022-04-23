@@ -2,11 +2,11 @@ class LinkedList:
     """
     Put docstring here
     """
-    #
-    def __init__(self):
+    
+     def __init__(self):
         # initialization here
         self.head = None
-
+        
     def __str__(self):
         current = self.head
         result = ""

@@ -39,7 +39,7 @@ class LinkedList:
         current = self.head
         while current.next != None:
             current = current.next
-        current.next = Node(new_val)
+        current.next = Node(new_val, None)
 
 
     def insert_before(self, val, new_val):

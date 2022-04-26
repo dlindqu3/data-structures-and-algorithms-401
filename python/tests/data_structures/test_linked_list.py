@@ -73,3 +73,34 @@ def test_includes_false():
     linked_list.insert("banana")
 
     assert not linked_list.includes("cucumber")
+
+def test_append():
+    linked_list = LinkedList()
+
+    linked_list.insert("apple")
+
+    linked_list.append("mango")
+
+    assert str(linked_list) == "{ apple } -> { mango } -> NULL"
+
+def test_insert_before():
+    linked_list = LinkedList()
+
+    linked_list.insert("apple")
+
+    linked_list.insert("mango")
+
+    linked_list.insert_before("apple", "kiwi")
+
+    assert str(linked_list) == "{ mango } -> { kiwi } -> { apple } -> NULL"
+
+def test_insert_after():
+    linked_list = LinkedList()
+
+    linked_list.insert("apple")
+
+    linked_list.insert("mango")
+
+    linked_list.insert_after("apple", "kiwi")
+
+    assert str(linked_list) == "{ mango } -> { apple } -> { kiwi } -> NULL"

@@ -77,3 +77,4 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 
 # Table of Contents
 5. linked-list [link](https://github.com/dlindqu3/data-structures-and-algorithms-401/blob/main/python/data_structures/linked_list.md)
+6. linked-list-insertions [link](https://github.com/dlindqu3/data-structures-and-algorithms-401/blob/main/python/data_structures/linked_list_insertions.md)

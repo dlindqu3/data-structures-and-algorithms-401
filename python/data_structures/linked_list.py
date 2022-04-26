@@ -36,7 +36,10 @@ class LinkedList:
 
 
     def append(self, new_val):
-        pass
+        current = self.head
+        while current.next != None:
+            current = current.next
+        current.next = Node(new_val)
 
 
     def insert_before(self, val, new_val):
@@ -69,13 +72,21 @@ class LinkedList:
 
     def insert_after(self, val, new_val):
         #add error handling
+        if not self.head:
+            raise TargetError
+
+        if not self.includes(val):
+            raise TargetError
+
         current = self.head
 
         while current.value != val:
             current = current.next
-        #right side of next line evaluates first
-        current.next = Node(new_val, current.next)
+        #now, current.value == val
 
+        #right side of next line evaluates first
+        #ends up as current -> Node -> current.next(original)
+        current.next = Node(new_val, current.next)
 
 class Node:
     def __init__(self, value, next=None):

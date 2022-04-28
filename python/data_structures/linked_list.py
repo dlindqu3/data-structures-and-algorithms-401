@@ -40,11 +40,15 @@ class LinkedList:
 
 
     def append(self, new_val):
-        current = self.head
-        while current.next != None:
-            current = current.next
-        current.next = Node(new_val, None)
-        self.count += 1
+        new_node = Node(new_val, None)
+        if self.head == None:
+            self.head = new_node
+            self.tail = new_node
+            self.count += 1
+        else:
+            self.tail.next = new_node
+            self.tail = new_node
+            self.count += 1
 
 
     def insert_before(self, val, new_val):

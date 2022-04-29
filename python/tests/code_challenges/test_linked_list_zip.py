@@ -85,4 +85,7 @@ def test_b_empty():
     expected = LinkedList()
     for value in reversed([1, 2, 3]):
         expected.insert(value)
-    assert actual == expected
+    # print(actual.__str__(), 'actual')
+    # print(expected.__str__(), "expected")
+    assert str(actual) == str(expected)
+    # assert actual == expected

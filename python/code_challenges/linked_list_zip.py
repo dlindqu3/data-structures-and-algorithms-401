@@ -22,6 +22,7 @@ def zip_lists(a, b):
     while current_b:
         result.append(current_b.value)
         current_b = current_b.next
+
     return result
 
 

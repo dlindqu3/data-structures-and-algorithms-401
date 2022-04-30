@@ -16,17 +16,11 @@ class Queue:
             self.front = Node(value)
             self.rear = self.front
             return
-            # return self.front.value
+
         temp = self.rear
         self.rear = Node(value)
         temp.next = self.rear
         return
-
-
-
-
-        # elif self.front:
-        #     self.rear.next
 
     def dequeue(self):
         if not self.front:
@@ -46,8 +40,3 @@ class Queue:
         if not self.front:
             raise InvalidOperationError
         return self.front.value
-
-# class Node:
-#     def __init__(self, value, next=None):
-#         self.value = value
-#         self.next = next

@@ -81,3 +81,4 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 7. linked-list-kth [link](https://github.com/dlindqu3/data-structures-and-algorithms-401/blob/main/python/data_structures/linked_list_kth.md)
 8. linked-list-zip [link](https://github.com/dlindqu3/data-structures-and-algorithms-401/blob/main/python/docs/linked_list_zip/README.md)
 10. stacks and queues [link](https://github.com/dlindqu3/data-structures-and-algorithms-401/blob/main/python/docs/stack_and_queue/README.md)
+11. stack-queue-pseudo [link](https://github.com/dlindqu3/data-structures-and-algorithms-401/blob/main/python/docs/stack_queue_pseudo/README.md)

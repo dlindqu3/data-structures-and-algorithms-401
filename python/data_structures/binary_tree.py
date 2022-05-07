@@ -2,6 +2,7 @@ class BinaryTree:
     def __init__(self):
         self.root = None
 
+
     def pre_order(self):
         ordered_values = []
         def walk(root, values):

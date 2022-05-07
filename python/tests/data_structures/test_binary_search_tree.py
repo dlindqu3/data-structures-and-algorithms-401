@@ -2,6 +2,7 @@ import pytest
 from data_structures.binary_search_tree import BinarySearchTree
 
 
+# @pytest.mark.skip("TODO")
 def test_exists():
     assert BinarySearchTree
 

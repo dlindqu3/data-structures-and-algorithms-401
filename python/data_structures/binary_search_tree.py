@@ -1,7 +1,9 @@
+from operator import truediv
 from data_structures.binary_tree import BinaryTree, Node
 
 
 class BinarySearchTree(BinaryTree):
+
     def add(self, value):
         def walk(root, new_node):
             # base case - root or cannot continue left/right comparison
@@ -25,5 +27,14 @@ class BinarySearchTree(BinaryTree):
             return
         walk(self.root, node_to_add)
 
-    def contains(self, value):
-        pass
+    def contains(self, test_value):
+        if self.root is None:
+            return False
+        while self.root:
+            if self.root.value == test_value:
+                return True
+            elif test_value > self.root.value:
+                self.root = self.root.right
+            else:
+                self.root = self.root.left
+        return False

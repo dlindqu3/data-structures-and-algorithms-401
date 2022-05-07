@@ -83,3 +83,5 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 10. stacks and queues [link](https://github.com/dlindqu3/data-structures-and-algorithms-401/blob/main/python/docs/stack_and_queue/README.md)
 11. stack-queue-pseudo [link](https://github.com/dlindqu3/data-structures-and-algorithms-401/blob/main/python/docs/stack_queue_pseudo/README.md)
 12. stack-queue-animal-shelter [link](https://github.com/dlindqu3/data-structures-and-algorithms-401/blob/main/python/docs/stack_queue_animal_shelter/README.md)
+15. trees - binary trees [link](https://github.com/dlindqu3/data-structures-and-algorithms-401/blob/main/python/data_structures/binary_tree.md)
+15. trees - binary search trees [link](https://github.com/dlindqu3/data-structures-and-algorithms-401/blob/main/python/data_structures/binary_search_tree.md)

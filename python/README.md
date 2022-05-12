@@ -87,3 +87,4 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 15. trees - binary search trees [link](https://github.com/dlindqu3/data-structures-and-algorithms-401/blob/main/python/data_structures/binary_search_tree.md)
 16. tree max [link](https://github.com/dlindqu3/data-structures-and-algorithms-401/blob/main/python/docs/tree_max/README.md)
 17. tree breadth first [link](https://github.com/dlindqu3/data-structures-and-algorithms-401/blob/main/python/docs/tree_breadth_first/README.md)
+18. fizz buzz tree [link](https://github.com/dlindqu3/data-structures-and-algorithms-401/blob/main/python/docs/tree_fizz_buzz/README.md)

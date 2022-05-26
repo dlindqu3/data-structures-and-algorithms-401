@@ -3,10 +3,20 @@ class Hashtable:
     Put docstring here
     """
 
+
     def __init__(self):
         # initialization here
         pass
 
-    def some_method(self):
+    def find(self):
         # method body here
+        pass
+
+    def contains(self):
+        pass
+
+    def add(self):
+        pass
+
+    def get_hash(self):
         pass
